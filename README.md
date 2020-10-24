@@ -8,17 +8,21 @@ This Application was developed in Python Django by Sofia Robles Sandoval
 
 ### Requirements
 
+- Python 3
 - Django==3.1.2
 - djangorestframework==3.12.1
 - python-dotenv==0.10.3
 - requests==2.24.0
 
 To install requirements run the following command: `pip install -r requirements.txt`
+If you have python 2 and 3 installed you have to run `pip3 install -r requirements.txt`
 
 ### How To Run
 
 Make sure to have the requirements installed before you run the application. 
 Go to harry_potter_api directory and run the following command: `python manage.py runserver`
+
+If you have python 2 and 3 you have to run `python3 manage.py runserver`
 
 ### Endpoints
 
